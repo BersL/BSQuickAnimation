@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC045E551BD8034500F05EC6 /* BSQuickAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CC045E541BD8034500F05EC6 /* BSQuickAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC045E6E1BD8039800F05EC6 /* BSQuickCALayerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC045E681BD8039800F05EC6 /* BSQuickCALayerAnimation.swift */; settings = {ASSET_TAGS = (); }; };
+		CC045E6F1BD8039800F05EC6 /* BSQuickCALayerAnimationCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC045E691BD8039800F05EC6 /* BSQuickCALayerAnimationCommon.swift */; settings = {ASSET_TAGS = (); }; };
+		CC045E701BD8039800F05EC6 /* BSQuickCALayerAnimationFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC045E6A1BD8039800F05EC6 /* BSQuickCALayerAnimationFunc.swift */; settings = {ASSET_TAGS = (); }; };
+		CC045E711BD8039800F05EC6 /* BSQuickUIViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC045E6B1BD8039800F05EC6 /* BSQuickUIViewAnimation.swift */; settings = {ASSET_TAGS = (); }; };
+		CC045E721BD8039800F05EC6 /* BSQuickUIViewAnimationCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC045E6C1BD8039800F05EC6 /* BSQuickUIViewAnimationCommon.swift */; settings = {ASSET_TAGS = (); }; };
+		CC045E731BD8039800F05EC6 /* BSQuickUIViewAnimationFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC045E6D1BD8039800F05EC6 /* BSQuickUIViewAnimationFunc.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC045E511BD8034500F05EC6 /* BSQuickAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BSQuickAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC045E541BD8034500F05EC6 /* BSQuickAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSQuickAnimation.h; sourceTree = "<group>"; };
+		CC045E561BD8034500F05EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC045E681BD8039800F05EC6 /* BSQuickCALayerAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSQuickCALayerAnimation.swift; sourceTree = "<group>"; };
+		CC045E691BD8039800F05EC6 /* BSQuickCALayerAnimationCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSQuickCALayerAnimationCommon.swift; sourceTree = "<group>"; };
+		CC045E6A1BD8039800F05EC6 /* BSQuickCALayerAnimationFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSQuickCALayerAnimationFunc.swift; sourceTree = "<group>"; };
+		CC045E6B1BD8039800F05EC6 /* BSQuickUIViewAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSQuickUIViewAnimation.swift; sourceTree = "<group>"; };
+		CC045E6C1BD8039800F05EC6 /* BSQuickUIViewAnimationCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSQuickUIViewAnimationCommon.swift; sourceTree = "<group>"; };
+		CC045E6D1BD8039800F05EC6 /* BSQuickUIViewAnimationFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSQuickUIViewAnimationFunc.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC045E4D1BD8034500F05EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC045E471BD8034500F05EC6 = {
+			isa = PBXGroup;
+			children = (
+				CC045E531BD8034500F05EC6 /* BSQuickAnimation */,
+				CC045E521BD8034500F05EC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC045E521BD8034500F05EC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC045E511BD8034500F05EC6 /* BSQuickAnimation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC045E531BD8034500F05EC6 /* BSQuickAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CC045E541BD8034500F05EC6 /* BSQuickAnimation.h */,
+				CC045E681BD8039800F05EC6 /* BSQuickCALayerAnimation.swift */,
+				CC045E691BD8039800F05EC6 /* BSQuickCALayerAnimationCommon.swift */,
+				CC045E6A1BD8039800F05EC6 /* BSQuickCALayerAnimationFunc.swift */,
+				CC045E6B1BD8039800F05EC6 /* BSQuickUIViewAnimation.swift */,
+				CC045E6C1BD8039800F05EC6 /* BSQuickUIViewAnimationCommon.swift */,
+				CC045E6D1BD8039800F05EC6 /* BSQuickUIViewAnimationFunc.swift */,
+				CC045E561BD8034500F05EC6 /* Info.plist */,
+			);
+			path = BSQuickAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CC045E4E1BD8034500F05EC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC045E551BD8034500F05EC6 /* BSQuickAnimation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CC045E501BD8034500F05EC6 /* BSQuickAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC045E591BD8034500F05EC6 /* Build configuration list for PBXNativeTarget "BSQuickAnimation" */;
+			buildPhases = (
+				CC045E4C1BD8034500F05EC6 /* Sources */,
+				CC045E4D1BD8034500F05EC6 /* Frameworks */,
+				CC045E4E1BD8034500F05EC6 /* Headers */,
+				CC045E4F1BD8034500F05EC6 /* Resources */,
+				CCB15CA91BD9EFD700330DAE /* Bulid Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSQuickAnimation;
+			productName = BSQuickAnimation;
+			productReference = CC045E511BD8034500F05EC6 /* BSQuickAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC045E481BD8034500F05EC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Bers;
+				TargetAttributes = {
+					CC045E501BD8034500F05EC6 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = J9D296U3J9;
+					};
+				};
+			};
+			buildConfigurationList = CC045E4B1BD8034500F05EC6 /* Build configuration list for PBXProject "BSQuickAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC045E471BD8034500F05EC6;
+			productRefGroup = CC045E521BD8034500F05EC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC045E501BD8034500F05EC6 /* BSQuickAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC045E4F1BD8034500F05EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CCB15CA91BD9EFD700330DAE /* Bulid Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bulid Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator VALID_ARCHS=\"x86_64 i386\" BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 4. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 5. Delete temporary build directory in the project's directory\nrm -rf \"${PROJECT_DIR}/build\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC045E4C1BD8034500F05EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC045E701BD8039800F05EC6 /* BSQuickCALayerAnimationFunc.swift in Sources */,
+				CC045E6F1BD8039800F05EC6 /* BSQuickCALayerAnimationCommon.swift in Sources */,
+				CC045E721BD8039800F05EC6 /* BSQuickUIViewAnimationCommon.swift in Sources */,
+				CC045E711BD8039800F05EC6 /* BSQuickUIViewAnimation.swift in Sources */,
+				CC045E731BD8039800F05EC6 /* BSQuickUIViewAnimationFunc.swift in Sources */,
+				CC045E6E1BD8039800F05EC6 /* BSQuickCALayerAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC045E571BD8034500F05EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC045E581BD8034500F05EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC045E5A1BD8034500F05EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BSQuickAnimation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UniqueStudio.BSQuickAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC045E5B1BD8034500F05EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BSQuickAnimation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UniqueStudio.BSQuickAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC045E4B1BD8034500F05EC6 /* Build configuration list for PBXProject "BSQuickAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC045E571BD8034500F05EC6 /* Debug */,
+				CC045E581BD8034500F05EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC045E591BD8034500F05EC6 /* Build configuration list for PBXNativeTarget "BSQuickAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC045E5A1BD8034500F05EC6 /* Debug */,
+				CC045E5B1BD8034500F05EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC045E481BD8034500F05EC6 /* Project object */;
+}

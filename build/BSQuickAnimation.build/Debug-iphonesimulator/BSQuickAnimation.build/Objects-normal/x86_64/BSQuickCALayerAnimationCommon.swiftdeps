@@ -1,0 +1,807 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "VE16BSQuickAnimationCSo7CALayer13AssociatedKey"
+- "CE16BSQuickAnimationCSo7CALayer14ClosureWrapper"
+- "CE16BSQuickAnimationCSo7CALayer17AnimationDelegate"
+provides-member:
+- ["CSo7CALayer", ""]
+- ["VE16BSQuickAnimationCSo7CALayer13AssociatedKey", ""]
+- ["CE16BSQuickAnimationCSo7CALayer14ClosureWrapper", ""]
+- ["CE16BSQuickAnimationCSo7CALayer17AnimationDelegate", ""]
+- ["CSo7CALayer", "AssociatedKey"]
+- ["CSo7CALayer", "ClosureWrapper"]
+- ["CSo7CALayer", "AnimationDelegate"]
+- ["CSo7CALayer", "bs_animationDelegate"]
+- ["CSo7CALayer", "bs_animationComplete"]
+- ["CSo7CALayer", "bs_duration"]
+- ["CSo7CALayer", "bs_timingCurve"]
+- ["CSo7CALayer", "bs_delay"]
+- ["CSo7CALayer", "bs_barrier"]
+- ["CSo7CALayer", "bs_removeOnCompletion"]
+- ["CSo7CALayer", "bs_completion"]
+- ["CSo7CALayer", "bs_lastDelay"]
+- ["CSo7CALayer", "bs_uncompletedTime"]
+- ["CSo7CALayer", "bs_animCount"]
+- ["CSo7CALayer", "bs_addAnimation"]
+- ["CSo7CALayer", "bs_addAnimation"]
+- ["CSo7CALayer", "bs_addAnimation"]
+provides-dynamic-lookup:
+- "bs_animationDelegate"
+- "bs_animationComplete"
+- "bs_animCount"
+- "bs_completion"
+- "stopBlock"
+- "bs_duration"
+- "bs_removeOnCompletion"
+- "bs_timingCurve"
+- "animationDidStop"
+- "bs_barrier"
+- "bs_lastDelay"
+- "bs_uncompletedTime"
+- "bs_addAnimation"
+- "bs_addAnimation"
+- "bs_addAnimation"
+- "animationDidStart"
+- "bs_delay"
+- "startBlock"
+depends-top-level:
+- !private "DISPATCH_TIME_NOW"
+- !private "max"
+- "String"
+- !private "??"
+- !private "dispatch_time"
+- !private "dispatch_after"
+- "CALayer"
+- !private "Double"
+- "CAMediaTimingFunction"
+- !private "objc_getAssociatedObject"
+- "NSTimeInterval"
+- !private "++"
+- "AnyObject"
+- !private "objc_setAssociatedObject"
+- !private "-="
+- !private "!"
+- !private "BooleanLiteralType"
+- !private "+"
+- !private "Int64"
+- !private "*"
+- !private "kCAFillModeForwards"
+- "Bool"
+- !private "-"
+- "Int"
+- !private "=="
+- !private "objc_AssociationPolicy"
+- !private "NSEC_PER_SEC"
+- !private "bs_mainQueue"
+- "Void"
+- "NSObject"
+- "CAAnimation"
+- !private "CABasicAnimation"
+- "StringLiteralType"
+- !private "+="
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs16AbsoluteValuable", "nonNegtive"]
+- ["CE16BSQuickAnimationCSo7CALayer17AnimationDelegate", "Bool"]
+- ["CE16BSQuickAnimationCSo7CALayer17AnimationDelegate", "CAAnimation"]
+- ["CE16BSQuickAnimationCSo7CALayer17AnimationDelegate", "Void"]
+- ["CE16BSQuickAnimationCSo7CALayer17AnimationDelegate", "animationDidStart"]
+- ["CE16BSQuickAnimationCSo7CALayer17AnimationDelegate", "animationDidStop"]
+- ["CE16BSQuickAnimationCSo7CALayer17AnimationDelegate", "deinit"]
+- ["CE16BSQuickAnimationCSo7CALayer17AnimationDelegate", "init"]
+- ["CE16BSQuickAnimationCSo7CALayer17AnimationDelegate", "startBlock"]
+- ["CE16BSQuickAnimationCSo7CALayer17AnimationDelegate", "stopBlock"]
+- !private ["PSs9AnyObject", "AnimationDelegate"]
+- !private ["PSs9AnyObject", "AssociatedKey"]
+- !private ["PSs9AnyObject", "CABasicAnimation"]
+- !private ["PSs9AnyObject", "ClosureWrapper"]
+- !private ["PSs9AnyObject", "DISPATCH_TIME_NOW"]
+- !private ["PSs9AnyObject", "Double"]
+- !private ["PSs9AnyObject", "Int64"]
+- !private ["PSs9AnyObject", "NSEC_PER_SEC"]
+- !private ["PSs9AnyObject", "_cls"]
+- !private ["PSs9AnyObject", "addAnimation"]
+- ["PSs9AnyObject", "animationDidStart"]
+- ["PSs9AnyObject", "animationDidStop"]
+- ["PSs9AnyObject", "bs_addAnimation"]
+- ["PSs9AnyObject", "bs_animCount"]
+- ["PSs9AnyObject", "bs_animationComplete"]
+- ["PSs9AnyObject", "bs_animationDelegate"]
+- !private ["PSs9AnyObject", "bs_animationOptions"]
+- ["PSs9AnyObject", "bs_barrier"]
+- ["PSs9AnyObject", "bs_completion"]
+- ["PSs9AnyObject", "bs_delay"]
+- ["PSs9AnyObject", "bs_duration"]
+- ["PSs9AnyObject", "bs_lastDelay"]
+- !private ["PSs9AnyObject", "bs_mainQueue"]
+- ["PSs9AnyObject", "bs_removeOnCompletion"]
+- ["PSs9AnyObject", "bs_timingCurve"]
+- ["PSs9AnyObject", "bs_uncompletedTime"]
+- !private ["PSs9AnyObject", "byValue"]
+- !private ["PSs9AnyObject", "closure"]
+- !private ["PSs9AnyObject", "delegate"]
+- !private ["PSs9AnyObject", "dispatch_after"]
+- !private ["PSs9AnyObject", "dispatch_time"]
+- !private ["PSs9AnyObject", "duration"]
+- !private ["PSs9AnyObject", "fillMode"]
+- !private ["PSs9AnyObject", "fromValue"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "kCAFillModeForwards"]
+- !private ["PSs9AnyObject", "max"]
+- !private ["PSs9AnyObject", "objc_AssociationPolicy"]
+- !private ["PSs9AnyObject", "objc_getAssociatedObject"]
+- !private ["PSs9AnyObject", "objc_setAssociatedObject"]
+- !private ["PSs9AnyObject", "removedOnCompletion"]
+- ["PSs9AnyObject", "startBlock"]
+- ["PSs9AnyObject", "stopBlock"]
+- !private ["PSs9AnyObject", "timingFunction"]
+- !private ["PSs9AnyObject", "toValue"]
+- ["PSs9AnyObject", ""]
+- ["VE16BSQuickAnimationCSo7CALayer13AssociatedKey", "animCount"]
+- ["VE16BSQuickAnimationCSo7CALayer13AssociatedKey", "animationDelegate"]
+- ["VE16BSQuickAnimationCSo7CALayer13AssociatedKey", "barrier"]
+- ["VE16BSQuickAnimationCSo7CALayer13AssociatedKey", "completion"]
+- ["VE16BSQuickAnimationCSo7CALayer13AssociatedKey", "delay"]
+- ["VE16BSQuickAnimationCSo7CALayer13AssociatedKey", "duration"]
+- ["VE16BSQuickAnimationCSo7CALayer13AssociatedKey", "init"]
+- ["VE16BSQuickAnimationCSo7CALayer13AssociatedKey", "lastDelay"]
+- ["VE16BSQuickAnimationCSo7CALayer13AssociatedKey", "removeOnCompletion"]
+- ["VE16BSQuickAnimationCSo7CALayer13AssociatedKey", "timingCurve"]
+- ["VE16BSQuickAnimationCSo7CALayer13AssociatedKey", "uncompletedTime"]
+- !private ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs22BidirectionalIndexType", "nonNegtive"]
+- !private ["PSs21BitwiseOperationsType", "init"]
+- !private ["PSs21BitwiseOperationsType", "nonNegtive"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "nonNegtive"]
+- !private ["PSo8CAAction", "byValue"]
+- !private ["PSo8CAAction", "delegate"]
+- !private ["PSo8CAAction", "duration"]
+- !private ["PSo8CAAction", "fillMode"]
+- !private ["PSo8CAAction", "fromValue"]
+- !private ["PSo8CAAction", "init"]
+- !private ["PSo8CAAction", "removedOnCompletion"]
+- !private ["PSo8CAAction", "timingFunction"]
+- !private ["PSo8CAAction", "toValue"]
+- !private ["CSo11CAAnimation", "byValue"]
+- !private ["CSo11CAAnimation", "delegate"]
+- !private ["CSo11CAAnimation", "duration"]
+- !private ["CSo11CAAnimation", "fillMode"]
+- !private ["CSo11CAAnimation", "fromValue"]
+- !private ["CSo11CAAnimation", "removedOnCompletion"]
+- !private ["CSo11CAAnimation", "timingFunction"]
+- !private ["CSo11CAAnimation", "toValue"]
+- !private ["CSo16CABasicAnimation", "byValue"]
+- !private ["CSo16CABasicAnimation", "delegate"]
+- !private ["CSo16CABasicAnimation", "duration"]
+- !private ["CSo16CABasicAnimation", "fillMode"]
+- !private ["CSo16CABasicAnimation", "fromValue"]
+- !private ["CSo16CABasicAnimation", "init"]
+- !private ["CSo16CABasicAnimation", "removedOnCompletion"]
+- !private ["CSo16CABasicAnimation", "timingFunction"]
+- !private ["CSo16CABasicAnimation", "toValue"]
+- ["CSo7CALayer", "AnimationDelegate"]
+- ["CSo7CALayer", "AnyObject"]
+- ["CSo7CALayer", "AssociatedKey"]
+- ["CSo7CALayer", "Bool"]
+- ["CSo7CALayer", "CAAnimation"]
+- !private ["CSo7CALayer", "CABasicAnimation"]
+- ["CSo7CALayer", "CAMediaTimingFunction"]
+- ["CSo7CALayer", "ClosureWrapper"]
+- !private ["CSo7CALayer", "DISPATCH_TIME_NOW"]
+- !private ["CSo7CALayer", "Double"]
+- ["CSo7CALayer", "Int"]
+- !private ["CSo7CALayer", "Int64"]
+- !private ["CSo7CALayer", "NSEC_PER_SEC"]
+- ["CSo7CALayer", "NSObject"]
+- ["CSo7CALayer", "NSTimeInterval"]
+- ["CSo7CALayer", "String"]
+- ["CSo7CALayer", "Void"]
+- !private ["CSo7CALayer", "addAnimation"]
+- ["CSo7CALayer", "bs_addAnimation"]
+- ["CSo7CALayer", "bs_animCount"]
+- ["CSo7CALayer", "bs_animationComplete"]
+- ["CSo7CALayer", "bs_animationDelegate"]
+- !private ["CSo7CALayer", "bs_animationOptions"]
+- ["CSo7CALayer", "bs_barrier"]
+- ["CSo7CALayer", "bs_completion"]
+- ["CSo7CALayer", "bs_delay"]
+- ["CSo7CALayer", "bs_duration"]
+- ["CSo7CALayer", "bs_lastDelay"]
+- !private ["CSo7CALayer", "bs_mainQueue"]
+- ["CSo7CALayer", "bs_removeOnCompletion"]
+- ["CSo7CALayer", "bs_timingCurve"]
+- ["CSo7CALayer", "bs_uncompletedTime"]
+- !private ["CSo7CALayer", "dispatch_after"]
+- !private ["CSo7CALayer", "dispatch_time"]
+- !private ["CSo7CALayer", "kCAFillModeForwards"]
+- !private ["CSo7CALayer", "max"]
+- !private ["CSo7CALayer", "objc_AssociationPolicy"]
+- !private ["CSo7CALayer", "objc_getAssociatedObject"]
+- !private ["CSo7CALayer", "objc_setAssociatedObject"]
+- !private ["PSo13CAMediaTiming", "AnimationDelegate"]
+- !private ["PSo13CAMediaTiming", "AssociatedKey"]
+- !private ["PSo13CAMediaTiming", "CABasicAnimation"]
+- !private ["PSo13CAMediaTiming", "ClosureWrapper"]
+- !private ["PSo13CAMediaTiming", "DISPATCH_TIME_NOW"]
+- !private ["PSo13CAMediaTiming", "Double"]
+- !private ["PSo13CAMediaTiming", "Int64"]
+- !private ["PSo13CAMediaTiming", "NSEC_PER_SEC"]
+- !private ["PSo13CAMediaTiming", "addAnimation"]
+- !private ["PSo13CAMediaTiming", "bs_addAnimation"]
+- !private ["PSo13CAMediaTiming", "bs_animCount"]
+- !private ["PSo13CAMediaTiming", "bs_animationComplete"]
+- !private ["PSo13CAMediaTiming", "bs_animationDelegate"]
+- !private ["PSo13CAMediaTiming", "bs_animationOptions"]
+- !private ["PSo13CAMediaTiming", "bs_barrier"]
+- !private ["PSo13CAMediaTiming", "bs_completion"]
+- !private ["PSo13CAMediaTiming", "bs_delay"]
+- !private ["PSo13CAMediaTiming", "bs_duration"]
+- !private ["PSo13CAMediaTiming", "bs_lastDelay"]
+- !private ["PSo13CAMediaTiming", "bs_mainQueue"]
+- !private ["PSo13CAMediaTiming", "bs_removeOnCompletion"]
+- !private ["PSo13CAMediaTiming", "bs_timingCurve"]
+- !private ["PSo13CAMediaTiming", "bs_uncompletedTime"]
+- !private ["PSo13CAMediaTiming", "byValue"]
+- !private ["PSo13CAMediaTiming", "delegate"]
+- !private ["PSo13CAMediaTiming", "dispatch_after"]
+- !private ["PSo13CAMediaTiming", "dispatch_time"]
+- !private ["PSo13CAMediaTiming", "duration"]
+- !private ["PSo13CAMediaTiming", "fillMode"]
+- !private ["PSo13CAMediaTiming", "fromValue"]
+- !private ["PSo13CAMediaTiming", "init"]
+- !private ["PSo13CAMediaTiming", "kCAFillModeForwards"]
+- !private ["PSo13CAMediaTiming", "max"]
+- !private ["PSo13CAMediaTiming", "objc_AssociationPolicy"]
+- !private ["PSo13CAMediaTiming", "objc_getAssociatedObject"]
+- !private ["PSo13CAMediaTiming", "objc_setAssociatedObject"]
+- !private ["PSo13CAMediaTiming", "removedOnCompletion"]
+- !private ["PSo13CAMediaTiming", "timingFunction"]
+- !private ["PSo13CAMediaTiming", "toValue"]
+- !private ["CSo19CAPropertyAnimation", "byValue"]
+- !private ["CSo19CAPropertyAnimation", "delegate"]
+- !private ["CSo19CAPropertyAnimation", "duration"]
+- !private ["CSo19CAPropertyAnimation", "fillMode"]
+- !private ["CSo19CAPropertyAnimation", "fromValue"]
+- !private ["CSo19CAPropertyAnimation", "removedOnCompletion"]
+- !private ["CSo19CAPropertyAnimation", "timingFunction"]
+- !private ["CSo19CAPropertyAnimation", "toValue"]
+- !private ["PSs11CVarArgType", "AnimationDelegate"]
+- !private ["PSs11CVarArgType", "AssociatedKey"]
+- !private ["PSs11CVarArgType", "CABasicAnimation"]
+- !private ["PSs11CVarArgType", "ClosureWrapper"]
+- !private ["PSs11CVarArgType", "DISPATCH_TIME_NOW"]
+- !private ["PSs11CVarArgType", "Double"]
+- !private ["PSs11CVarArgType", "Int64"]
+- !private ["PSs11CVarArgType", "NSEC_PER_SEC"]
+- !private ["PSs11CVarArgType", "addAnimation"]
+- ["PSs11CVarArgType", "animationDidStart"]
+- ["PSs11CVarArgType", "animationDidStop"]
+- ["PSs11CVarArgType", "bs_addAnimation"]
+- ["PSs11CVarArgType", "bs_animCount"]
+- ["PSs11CVarArgType", "bs_animationComplete"]
+- ["PSs11CVarArgType", "bs_animationDelegate"]
+- !private ["PSs11CVarArgType", "bs_animationOptions"]
+- ["PSs11CVarArgType", "bs_barrier"]
+- ["PSs11CVarArgType", "bs_completion"]
+- ["PSs11CVarArgType", "bs_delay"]
+- ["PSs11CVarArgType", "bs_duration"]
+- ["PSs11CVarArgType", "bs_lastDelay"]
+- !private ["PSs11CVarArgType", "bs_mainQueue"]
+- ["PSs11CVarArgType", "bs_removeOnCompletion"]
+- ["PSs11CVarArgType", "bs_timingCurve"]
+- ["PSs11CVarArgType", "bs_uncompletedTime"]
+- !private ["PSs11CVarArgType", "byValue"]
+- !private ["PSs11CVarArgType", "delegate"]
+- !private ["PSs11CVarArgType", "dispatch_after"]
+- !private ["PSs11CVarArgType", "dispatch_time"]
+- !private ["PSs11CVarArgType", "duration"]
+- !private ["PSs11CVarArgType", "fillMode"]
+- !private ["PSs11CVarArgType", "fromValue"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "kCAFillModeForwards"]
+- !private ["PSs11CVarArgType", "max"]
+- !private ["PSs11CVarArgType", "nonNegtive"]
+- !private ["PSs11CVarArgType", "objc_AssociationPolicy"]
+- !private ["PSs11CVarArgType", "objc_getAssociatedObject"]
+- !private ["PSs11CVarArgType", "objc_setAssociatedObject"]
+- !private ["PSs11CVarArgType", "removedOnCompletion"]
+- ["PSs11CVarArgType", "startBlock"]
+- ["PSs11CVarArgType", "stopBlock"]
+- !private ["PSs11CVarArgType", "timingFunction"]
+- !private ["PSs11CVarArgType", "toValue"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- ["CE16BSQuickAnimationCSo7CALayer14ClosureWrapper", "Bool"]
+- ["CE16BSQuickAnimationCSo7CALayer14ClosureWrapper", "Void"]
+- ["CE16BSQuickAnimationCSo7CALayer14ClosureWrapper", "_cls"]
+- !private ["CE16BSQuickAnimationCSo7CALayer14ClosureWrapper", "bs_animationOptions"]
+- ["CE16BSQuickAnimationCSo7CALayer14ClosureWrapper", "closure"]
+- ["CE16BSQuickAnimationCSo7CALayer14ClosureWrapper", "deinit"]
+- ["CE16BSQuickAnimationCSo7CALayer14ClosureWrapper", "init"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "nonNegtive"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "AnimationDelegate"]
+- !private ["PSs23CustomStringConvertible", "AssociatedKey"]
+- !private ["PSs23CustomStringConvertible", "CABasicAnimation"]
+- !private ["PSs23CustomStringConvertible", "ClosureWrapper"]
+- !private ["PSs23CustomStringConvertible", "DISPATCH_TIME_NOW"]
+- !private ["PSs23CustomStringConvertible", "Double"]
+- !private ["PSs23CustomStringConvertible", "Int64"]
+- !private ["PSs23CustomStringConvertible", "NSEC_PER_SEC"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addAnimation"]
+- ["PSs23CustomStringConvertible", "animationDidStart"]
+- ["PSs23CustomStringConvertible", "animationDidStop"]
+- ["PSs23CustomStringConvertible", "bs_addAnimation"]
+- ["PSs23CustomStringConvertible", "bs_animCount"]
+- ["PSs23CustomStringConvertible", "bs_animationComplete"]
+- ["PSs23CustomStringConvertible", "bs_animationDelegate"]
+- !private ["PSs23CustomStringConvertible", "bs_animationOptions"]
+- ["PSs23CustomStringConvertible", "bs_barrier"]
+- ["PSs23CustomStringConvertible", "bs_completion"]
+- ["PSs23CustomStringConvertible", "bs_delay"]
+- ["PSs23CustomStringConvertible", "bs_duration"]
+- ["PSs23CustomStringConvertible", "bs_lastDelay"]
+- !private ["PSs23CustomStringConvertible", "bs_mainQueue"]
+- ["PSs23CustomStringConvertible", "bs_removeOnCompletion"]
+- ["PSs23CustomStringConvertible", "bs_timingCurve"]
+- ["PSs23CustomStringConvertible", "bs_uncompletedTime"]
+- !private ["PSs23CustomStringConvertible", "byValue"]
+- !private ["PSs23CustomStringConvertible", "delegate"]
+- !private ["PSs23CustomStringConvertible", "dispatch_after"]
+- !private ["PSs23CustomStringConvertible", "dispatch_time"]
+- !private ["PSs23CustomStringConvertible", "duration"]
+- !private ["PSs23CustomStringConvertible", "fillMode"]
+- !private ["PSs23CustomStringConvertible", "fromValue"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "kCAFillModeForwards"]
+- !private ["PSs23CustomStringConvertible", "max"]
+- !private ["PSs23CustomStringConvertible", "nonNegtive"]
+- !private ["PSs23CustomStringConvertible", "objc_AssociationPolicy"]
+- !private ["PSs23CustomStringConvertible", "objc_getAssociatedObject"]
+- !private ["PSs23CustomStringConvertible", "objc_setAssociatedObject"]
+- !private ["PSs23CustomStringConvertible", "removedOnCompletion"]
+- ["PSs23CustomStringConvertible", "startBlock"]
+- ["PSs23CustomStringConvertible", "stopBlock"]
+- !private ["PSs23CustomStringConvertible", "timingFunction"]
+- !private ["PSs23CustomStringConvertible", "toValue"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["Sd", "nonNegtive"]
+- !private ["PSs9Equatable", "AnimationDelegate"]
+- !private ["PSs9Equatable", "AssociatedKey"]
+- !private ["PSs9Equatable", "CABasicAnimation"]
+- !private ["PSs9Equatable", "ClosureWrapper"]
+- !private ["PSs9Equatable", "DISPATCH_TIME_NOW"]
+- !private ["PSs9Equatable", "Double"]
+- !private ["PSs9Equatable", "Int64"]
+- !private ["PSs9Equatable", "NSEC_PER_SEC"]
+- !private ["PSs9Equatable", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addAnimation"]
+- ["PSs9Equatable", "animationDidStart"]
+- ["PSs9Equatable", "animationDidStop"]
+- ["PSs9Equatable", "bs_addAnimation"]
+- ["PSs9Equatable", "bs_animCount"]
+- ["PSs9Equatable", "bs_animationComplete"]
+- ["PSs9Equatable", "bs_animationDelegate"]
+- !private ["PSs9Equatable", "bs_animationOptions"]
+- ["PSs9Equatable", "bs_barrier"]
+- ["PSs9Equatable", "bs_completion"]
+- ["PSs9Equatable", "bs_delay"]
+- ["PSs9Equatable", "bs_duration"]
+- ["PSs9Equatable", "bs_lastDelay"]
+- !private ["PSs9Equatable", "bs_mainQueue"]
+- ["PSs9Equatable", "bs_removeOnCompletion"]
+- ["PSs9Equatable", "bs_timingCurve"]
+- ["PSs9Equatable", "bs_uncompletedTime"]
+- !private ["PSs9Equatable", "byValue"]
+- !private ["PSs9Equatable", "delegate"]
+- !private ["PSs9Equatable", "dispatch_after"]
+- !private ["PSs9Equatable", "dispatch_time"]
+- !private ["PSs9Equatable", "duration"]
+- !private ["PSs9Equatable", "fillMode"]
+- !private ["PSs9Equatable", "fromValue"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "kCAFillModeForwards"]
+- !private ["PSs9Equatable", "max"]
+- !private ["PSs9Equatable", "nonNegtive"]
+- !private ["PSs9Equatable", "objc_AssociationPolicy"]
+- !private ["PSs9Equatable", "objc_getAssociatedObject"]
+- !private ["PSs9Equatable", "objc_setAssociatedObject"]
+- !private ["PSs9Equatable", "removedOnCompletion"]
+- ["PSs9Equatable", "startBlock"]
+- ["PSs9Equatable", "stopBlock"]
+- !private ["PSs9Equatable", "timingFunction"]
+- !private ["PSs9Equatable", "toValue"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs23FloatLiteralConvertible", "nonNegtive"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs17FloatingPointType", "nonNegtive"]
+- !private ["PSs16ForwardIndexType", "init"]
+- !private ["PSs16ForwardIndexType", "nonNegtive"]
+- !private ["PSs8Hashable", "AnimationDelegate"]
+- !private ["PSs8Hashable", "AssociatedKey"]
+- !private ["PSs8Hashable", "CABasicAnimation"]
+- !private ["PSs8Hashable", "ClosureWrapper"]
+- !private ["PSs8Hashable", "DISPATCH_TIME_NOW"]
+- !private ["PSs8Hashable", "Double"]
+- !private ["PSs8Hashable", "Int64"]
+- !private ["PSs8Hashable", "NSEC_PER_SEC"]
+- !private ["PSs8Hashable", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addAnimation"]
+- ["PSs8Hashable", "animationDidStart"]
+- ["PSs8Hashable", "animationDidStop"]
+- ["PSs8Hashable", "bs_addAnimation"]
+- ["PSs8Hashable", "bs_animCount"]
+- ["PSs8Hashable", "bs_animationComplete"]
+- ["PSs8Hashable", "bs_animationDelegate"]
+- !private ["PSs8Hashable", "bs_animationOptions"]
+- ["PSs8Hashable", "bs_barrier"]
+- ["PSs8Hashable", "bs_completion"]
+- ["PSs8Hashable", "bs_delay"]
+- ["PSs8Hashable", "bs_duration"]
+- ["PSs8Hashable", "bs_lastDelay"]
+- !private ["PSs8Hashable", "bs_mainQueue"]
+- ["PSs8Hashable", "bs_removeOnCompletion"]
+- ["PSs8Hashable", "bs_timingCurve"]
+- ["PSs8Hashable", "bs_uncompletedTime"]
+- !private ["PSs8Hashable", "byValue"]
+- !private ["PSs8Hashable", "delegate"]
+- !private ["PSs8Hashable", "dispatch_after"]
+- !private ["PSs8Hashable", "dispatch_time"]
+- !private ["PSs8Hashable", "duration"]
+- !private ["PSs8Hashable", "fillMode"]
+- !private ["PSs8Hashable", "fromValue"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "kCAFillModeForwards"]
+- !private ["PSs8Hashable", "max"]
+- !private ["PSs8Hashable", "nonNegtive"]
+- !private ["PSs8Hashable", "objc_AssociationPolicy"]
+- !private ["PSs8Hashable", "objc_getAssociatedObject"]
+- !private ["PSs8Hashable", "objc_setAssociatedObject"]
+- !private ["PSs8Hashable", "removedOnCompletion"]
+- ["PSs8Hashable", "startBlock"]
+- ["PSs8Hashable", "stopBlock"]
+- !private ["PSs8Hashable", "timingFunction"]
+- !private ["PSs8Hashable", "toValue"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["Si", "nonNegtive"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs5Int64", "init"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "init"]
+- !private ["PSs21IntegerArithmeticType", "nonNegtive"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "nonNegtive"]
+- !private ["PSs11IntegerType", "init"]
+- !private ["PSs11IntegerType", "nonNegtive"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs14MirrorPathType", "nonNegtive"]
+- !private ["PSo8NSCoding", "AnimationDelegate"]
+- !private ["PSo8NSCoding", "AssociatedKey"]
+- !private ["PSo8NSCoding", "CABasicAnimation"]
+- !private ["PSo8NSCoding", "ClosureWrapper"]
+- !private ["PSo8NSCoding", "DISPATCH_TIME_NOW"]
+- !private ["PSo8NSCoding", "Double"]
+- !private ["PSo8NSCoding", "Int64"]
+- !private ["PSo8NSCoding", "NSEC_PER_SEC"]
+- !private ["PSo8NSCoding", "addAnimation"]
+- !private ["PSo8NSCoding", "bs_addAnimation"]
+- !private ["PSo8NSCoding", "bs_animCount"]
+- !private ["PSo8NSCoding", "bs_animationComplete"]
+- !private ["PSo8NSCoding", "bs_animationDelegate"]
+- !private ["PSo8NSCoding", "bs_animationOptions"]
+- !private ["PSo8NSCoding", "bs_barrier"]
+- !private ["PSo8NSCoding", "bs_completion"]
+- !private ["PSo8NSCoding", "bs_delay"]
+- !private ["PSo8NSCoding", "bs_duration"]
+- !private ["PSo8NSCoding", "bs_lastDelay"]
+- !private ["PSo8NSCoding", "bs_mainQueue"]
+- !private ["PSo8NSCoding", "bs_removeOnCompletion"]
+- !private ["PSo8NSCoding", "bs_timingCurve"]
+- !private ["PSo8NSCoding", "bs_uncompletedTime"]
+- !private ["PSo8NSCoding", "byValue"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "dispatch_after"]
+- !private ["PSo8NSCoding", "dispatch_time"]
+- !private ["PSo8NSCoding", "duration"]
+- !private ["PSo8NSCoding", "fillMode"]
+- !private ["PSo8NSCoding", "fromValue"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kCAFillModeForwards"]
+- !private ["PSo8NSCoding", "max"]
+- !private ["PSo8NSCoding", "objc_AssociationPolicy"]
+- !private ["PSo8NSCoding", "objc_getAssociatedObject"]
+- !private ["PSo8NSCoding", "objc_setAssociatedObject"]
+- !private ["PSo8NSCoding", "removedOnCompletion"]
+- !private ["PSo8NSCoding", "timingFunction"]
+- !private ["PSo8NSCoding", "toValue"]
+- !private ["PSo9NSCopying", "byValue"]
+- !private ["PSo9NSCopying", "delegate"]
+- !private ["PSo9NSCopying", "duration"]
+- !private ["PSo9NSCopying", "fillMode"]
+- !private ["PSo9NSCopying", "fromValue"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "removedOnCompletion"]
+- !private ["PSo9NSCopying", "timingFunction"]
+- !private ["PSo9NSCopying", "toValue"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnimationDelegate"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "AssociatedKey"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CAAnimation"]
+- !private ["CSo8NSObject", "CABasicAnimation"]
+- ["CSo8NSObject", "CAMediaTimingFunction"]
+- !private ["CSo8NSObject", "ClosureWrapper"]
+- !private ["CSo8NSObject", "DISPATCH_TIME_NOW"]
+- !private ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "Int64"]
+- !private ["CSo8NSObject", "NSEC_PER_SEC"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "NSTimeInterval"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addAnimation"]
+- ["CSo8NSObject", "animationDidStart"]
+- ["CSo8NSObject", "animationDidStop"]
+- ["CSo8NSObject", "bs_addAnimation"]
+- ["CSo8NSObject", "bs_animCount"]
+- ["CSo8NSObject", "bs_animationComplete"]
+- ["CSo8NSObject", "bs_animationDelegate"]
+- !private ["CSo8NSObject", "bs_animationOptions"]
+- ["CSo8NSObject", "bs_barrier"]
+- ["CSo8NSObject", "bs_completion"]
+- ["CSo8NSObject", "bs_delay"]
+- ["CSo8NSObject", "bs_duration"]
+- ["CSo8NSObject", "bs_lastDelay"]
+- !private ["CSo8NSObject", "bs_mainQueue"]
+- ["CSo8NSObject", "bs_removeOnCompletion"]
+- ["CSo8NSObject", "bs_timingCurve"]
+- ["CSo8NSObject", "bs_uncompletedTime"]
+- !private ["CSo8NSObject", "byValue"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "dispatch_after"]
+- !private ["CSo8NSObject", "dispatch_time"]
+- !private ["CSo8NSObject", "duration"]
+- !private ["CSo8NSObject", "fillMode"]
+- !private ["CSo8NSObject", "fromValue"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kCAFillModeForwards"]
+- !private ["CSo8NSObject", "max"]
+- !private ["CSo8NSObject", "objc_AssociationPolicy"]
+- !private ["CSo8NSObject", "objc_getAssociatedObject"]
+- !private ["CSo8NSObject", "objc_setAssociatedObject"]
+- !private ["CSo8NSObject", "removedOnCompletion"]
+- ["CSo8NSObject", "startBlock"]
+- ["CSo8NSObject", "stopBlock"]
+- !private ["CSo8NSObject", "timingFunction"]
+- !private ["CSo8NSObject", "toValue"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "AnimationDelegate"]
+- !private ["PSo16NSObjectProtocol", "AssociatedKey"]
+- !private ["PSo16NSObjectProtocol", "CABasicAnimation"]
+- !private ["PSo16NSObjectProtocol", "ClosureWrapper"]
+- !private ["PSo16NSObjectProtocol", "DISPATCH_TIME_NOW"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "Int64"]
+- !private ["PSo16NSObjectProtocol", "NSEC_PER_SEC"]
+- !private ["PSo16NSObjectProtocol", "addAnimation"]
+- ["PSo16NSObjectProtocol", "animationDidStart"]
+- ["PSo16NSObjectProtocol", "animationDidStop"]
+- ["PSo16NSObjectProtocol", "bs_addAnimation"]
+- ["PSo16NSObjectProtocol", "bs_animCount"]
+- ["PSo16NSObjectProtocol", "bs_animationComplete"]
+- ["PSo16NSObjectProtocol", "bs_animationDelegate"]
+- !private ["PSo16NSObjectProtocol", "bs_animationOptions"]
+- ["PSo16NSObjectProtocol", "bs_barrier"]
+- ["PSo16NSObjectProtocol", "bs_completion"]
+- ["PSo16NSObjectProtocol", "bs_delay"]
+- ["PSo16NSObjectProtocol", "bs_duration"]
+- ["PSo16NSObjectProtocol", "bs_lastDelay"]
+- !private ["PSo16NSObjectProtocol", "bs_mainQueue"]
+- ["PSo16NSObjectProtocol", "bs_removeOnCompletion"]
+- ["PSo16NSObjectProtocol", "bs_timingCurve"]
+- ["PSo16NSObjectProtocol", "bs_uncompletedTime"]
+- !private ["PSo16NSObjectProtocol", "byValue"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "dispatch_after"]
+- !private ["PSo16NSObjectProtocol", "dispatch_time"]
+- !private ["PSo16NSObjectProtocol", "duration"]
+- !private ["PSo16NSObjectProtocol", "fillMode"]
+- !private ["PSo16NSObjectProtocol", "fromValue"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kCAFillModeForwards"]
+- !private ["PSo16NSObjectProtocol", "max"]
+- !private ["PSo16NSObjectProtocol", "objc_AssociationPolicy"]
+- !private ["PSo16NSObjectProtocol", "objc_getAssociatedObject"]
+- !private ["PSo16NSObjectProtocol", "objc_setAssociatedObject"]
+- !private ["PSo16NSObjectProtocol", "removedOnCompletion"]
+- ["PSo16NSObjectProtocol", "startBlock"]
+- ["PSo16NSObjectProtocol", "stopBlock"]
+- !private ["PSo16NSObjectProtocol", "timingFunction"]
+- !private ["PSo16NSObjectProtocol", "toValue"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "init"]
+- !private ["PSs21RandomAccessIndexType", "nonNegtive"]
+- !private ["PSs16RawRepresentable", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["PSs17SignedIntegerType", "init"]
+- !private ["PSs17SignedIntegerType", "nonNegtive"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs16SignedNumberType", "nonNegtive"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "init"]
+- !private ["PSs10Strideable", "nonNegtive"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "nonNegtive"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "nonNegtive"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs19_CVarArgAlignedType", "nonNegtive"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "nonNegtive"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs14_Incrementable", "init"]
+- !private ["PSs14_Incrementable", "nonNegtive"]
+- !private ["PSs22_IntegerArithmeticType", "init"]
+- !private ["PSs22_IntegerArithmeticType", "nonNegtive"]
+- !private ["PSs12_IntegerType", "init"]
+- !private ["PSs12_IntegerType", "nonNegtive"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "nonNegtive"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "nonNegtive"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "nonNegtive"]
+- !private ["PSs18_SignedIntegerType", "init"]
+- !private ["PSs18_SignedIntegerType", "nonNegtive"]
+- !private ["PSs11_Strideable", "init"]
+- !private ["PSs11_Strideable", "nonNegtive"]
+- !private ["VE16BSQuickAnimationCSo7CALayer19bs_animationOptions", "defaultCompletinoBlock"]
+- !private ["VE16BSQuickAnimationCSo7CALayer19bs_animationOptions", "defaultDelay"]
+- !private ["VE16BSQuickAnimationCSo7CALayer19bs_animationOptions", "defaultDuration"]
+- !private ["VE16BSQuickAnimationCSo7CALayer19bs_animationOptions", "defaultTimingCurve"]
+- !private ["OSC22objc_AssociationPolicy", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "CE16BSQuickAnimationCSo7CALayer17AnimationDelegate"
+- "PSs9AnyObject"
+- "VE16BSQuickAnimationCSo7CALayer13AssociatedKey"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "PSo8CAAction"
+- !private "CSo11CAAnimation"
+- !private "CSo16CABasicAnimation"
+- "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "CSo19CAPropertyAnimation"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- "CE16BSQuickAnimationCSo7CALayer14ClosureWrapper"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs16RawRepresentable"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs16_CocoaStringType"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+- !private "VE16BSQuickAnimationCSo7CALayer19bs_animationOptions"
+- !private "OSC22objc_AssociationPolicy"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Bers/Desktop/\u539F\u59CB/Developing/BSQuickAnimation/BSQuickAnimation/BSQuickAnimation.h"
+- "/Users/Bers/Desktop/\u539F\u59CB/Developing/BSQuickAnimation/build/BSQuickAnimation.build/Debug-iphonesimulator/BSQuickAnimation.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "16d4e552a25e88e0ac964a15294ba433"

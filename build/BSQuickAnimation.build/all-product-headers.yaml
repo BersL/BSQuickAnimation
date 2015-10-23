@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Bers/Library/Developer/Xcode/DerivedData/BSQuickAnimation-eusmwoaqlucouzekarpebxrqlrzc/Build/Products/Debug-iphoneos/BSQuickAnimation.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BSQuickAnimation-Swift.h",
+          'external-contents': "/Users/Bers/Library/Developer/Xcode/DerivedData/BSQuickAnimation-eusmwoaqlucouzekarpebxrqlrzc/Build/Products/Debug-iphoneos/BSQuickAnimation.framework/Headers/BSQuickAnimation-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "BSQuickAnimation.h",
+          'external-contents': "/Users/Bers/Desktop/\u539F\u59CB/Developing/BSQuickAnimation/BSQuickAnimation/BSQuickAnimation.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Bers/Library/Developer/Xcode/DerivedData/BSQuickAnimation-eusmwoaqlucouzekarpebxrqlrzc/Build/Products/Debug-iphoneos/BSQuickAnimation.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Bers/Desktop/\u539F\u59CB/Developing/BSQuickAnimation/build/BSQuickAnimation.build/Debug-iphoneos/BSQuickAnimation.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

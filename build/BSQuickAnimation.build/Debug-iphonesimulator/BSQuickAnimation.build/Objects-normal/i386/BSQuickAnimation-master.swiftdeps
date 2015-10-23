@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "4e1f0ad8e749fd93e74d1419d7977db0"
+build_time: [498921447, 803210000]
+inputs: 
+	"/Users/Bers/Desktop/\u539F\u59CB/Developing/BSQuickAnimation/BSQuickAnimation/BSQuickUIViewAnimationFunc.swift": [498764373, 0]
+	"/Users/Bers/Desktop/\u539F\u59CB/Developing/BSQuickAnimation/BSQuickAnimation/BSQuickCALayerAnimationCommon.swift": [498847715, 0]
+	"/Users/Bers/Desktop/\u539F\u59CB/Developing/BSQuickAnimation/BSQuickAnimation/BSQuickCALayerAnimation.swift": [498847715, 0]
+	"/Users/Bers/Desktop/\u539F\u59CB/Developing/BSQuickAnimation/BSQuickAnimation/BSQuickUIViewAnimation.swift": [498764373, 0]
+	"/Users/Bers/Desktop/\u539F\u59CB/Developing/BSQuickAnimation/BSQuickAnimation/BSQuickCALayerAnimationFunc.swift": [498764373, 0]
+	"/Users/Bers/Desktop/\u539F\u59CB/Developing/BSQuickAnimation/BSQuickAnimation/BSQuickUIViewAnimationCommon.swift": [498764373, 0]

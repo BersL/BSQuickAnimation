@@ -1,0 +1,10 @@
+framework module BSQuickAnimation {
+  umbrella header "BSQuickAnimation.h"
+
+  export *
+  module * { export * }
+}
+
+module BSQuickAnimation.__Swift {
+    exclude header "BSQuickAnimation-Swift.h"
+}

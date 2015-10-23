@@ -1,0 +1,433 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo7CALayer", ""]
+- ["CSo7CALayer", "commitAnimation"]
+- ["CSo7CALayer", "removeOnCompletion"]
+- ["CSo7CALayer", "then"]
+- ["CSo7CALayer", "barrier"]
+- ["CSo7CALayer", "and"]
+- ["CSo7CALayer", "bs_remoevAnim"]
+- ["CSo7CALayer", "bs_removeAll"]
+- ["CSo7CALayer", "after"]
+- ["CSo7CALayer", "delay"]
+- ["CSo7CALayer", "completion"]
+- ["CSo7CALayer", "linear"]
+- ["CSo7CALayer", "easeIn"]
+- ["CSo7CALayer", "easeOut"]
+- ["CSo7CALayer", "easeInOut"]
+provides-dynamic-lookup:
+- "then"
+- "easeOut"
+- "commitAnimation"
+- "removeOnCompletion"
+- "barrier"
+- "easeInOut"
+- "linear"
+- "bs_remoevAnim"
+- "after"
+- "and"
+- "easeIn"
+- "bs_removeAll"
+- "delay"
+- "completion"
+depends-top-level:
+- !private ">"
+- "Bool"
+- "Void"
+- !private "CAMediaTimingFunction"
+- !private "StringLiteralType"
+- !private "kCAMediaTimingFunctionLinear"
+- "NSTimeInterval"
+- "Int"
+- !private "kCAMediaTimingFunctionEaseInEaseOut"
+- "String"
+- !private "BooleanLiteralType"
+- !private "+="
+- !private "kCAMediaTimingFunctionEaseIn"
+- !private "kCAMediaTimingFunctionEaseOut"
+- "CALayer"
+depends-member:
+- !private ["PSs9AnyObject", "CAMediaTimingFunction"]
+- ["PSs9AnyObject", "after"]
+- ["PSs9AnyObject", "and"]
+- ["PSs9AnyObject", "barrier"]
+- !private ["PSs9AnyObject", "bs_animCount"]
+- !private ["PSs9AnyObject", "bs_barrier"]
+- !private ["PSs9AnyObject", "bs_completion"]
+- !private ["PSs9AnyObject", "bs_delay"]
+- !private ["PSs9AnyObject", "bs_lastDelay"]
+- ["PSs9AnyObject", "bs_remoevAnim"]
+- ["PSs9AnyObject", "bs_removeAll"]
+- !private ["PSs9AnyObject", "bs_removeOnCompletion"]
+- !private ["PSs9AnyObject", "bs_timingCurve"]
+- !private ["PSs9AnyObject", "bs_uncompletedTime"]
+- ["PSs9AnyObject", "commitAnimation"]
+- ["PSs9AnyObject", "completion"]
+- ["PSs9AnyObject", "delay"]
+- ["PSs9AnyObject", "easeIn"]
+- ["PSs9AnyObject", "easeInOut"]
+- ["PSs9AnyObject", "easeOut"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "kCAMediaTimingFunctionEaseIn"]
+- !private ["PSs9AnyObject", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSs9AnyObject", "kCAMediaTimingFunctionEaseOut"]
+- !private ["PSs9AnyObject", "kCAMediaTimingFunctionLinear"]
+- ["PSs9AnyObject", "linear"]
+- !private ["PSs9AnyObject", "removeAllAnimations"]
+- !private ["PSs9AnyObject", "removeAnimationForKey"]
+- ["PSs9AnyObject", "removeOnCompletion"]
+- ["PSs9AnyObject", "then"]
+- !private ["Sb", "deinit"]
+- ["CSo7CALayer", "Bool"]
+- ["CSo7CALayer", "CALayer"]
+- !private ["CSo7CALayer", "CAMediaTimingFunction"]
+- ["CSo7CALayer", "Int"]
+- ["CSo7CALayer", "NSTimeInterval"]
+- ["CSo7CALayer", "String"]
+- ["CSo7CALayer", "Void"]
+- ["CSo7CALayer", "after"]
+- ["CSo7CALayer", "and"]
+- ["CSo7CALayer", "barrier"]
+- !private ["CSo7CALayer", "bs_animCount"]
+- !private ["CSo7CALayer", "bs_barrier"]
+- !private ["CSo7CALayer", "bs_completion"]
+- !private ["CSo7CALayer", "bs_delay"]
+- !private ["CSo7CALayer", "bs_lastDelay"]
+- ["CSo7CALayer", "bs_remoevAnim"]
+- ["CSo7CALayer", "bs_removeAll"]
+- !private ["CSo7CALayer", "bs_removeOnCompletion"]
+- !private ["CSo7CALayer", "bs_timingCurve"]
+- !private ["CSo7CALayer", "bs_uncompletedTime"]
+- ["CSo7CALayer", "commitAnimation"]
+- ["CSo7CALayer", "completion"]
+- ["CSo7CALayer", "delay"]
+- ["CSo7CALayer", "easeIn"]
+- ["CSo7CALayer", "easeInOut"]
+- ["CSo7CALayer", "easeOut"]
+- !private ["CSo7CALayer", "kCAMediaTimingFunctionEaseIn"]
+- !private ["CSo7CALayer", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["CSo7CALayer", "kCAMediaTimingFunctionEaseOut"]
+- !private ["CSo7CALayer", "kCAMediaTimingFunctionLinear"]
+- ["CSo7CALayer", "linear"]
+- !private ["CSo7CALayer", "removeAllAnimations"]
+- !private ["CSo7CALayer", "removeAnimationForKey"]
+- ["CSo7CALayer", "removeOnCompletion"]
+- ["CSo7CALayer", "then"]
+- !private ["PSo13CAMediaTiming", "CAMediaTimingFunction"]
+- !private ["PSo13CAMediaTiming", "after"]
+- !private ["PSo13CAMediaTiming", "bs_animCount"]
+- !private ["PSo13CAMediaTiming", "bs_barrier"]
+- !private ["PSo13CAMediaTiming", "bs_completion"]
+- !private ["PSo13CAMediaTiming", "bs_delay"]
+- !private ["PSo13CAMediaTiming", "bs_lastDelay"]
+- !private ["PSo13CAMediaTiming", "bs_removeOnCompletion"]
+- !private ["PSo13CAMediaTiming", "bs_timingCurve"]
+- !private ["PSo13CAMediaTiming", "bs_uncompletedTime"]
+- !private ["PSo13CAMediaTiming", "kCAMediaTimingFunctionEaseIn"]
+- !private ["PSo13CAMediaTiming", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSo13CAMediaTiming", "kCAMediaTimingFunctionEaseOut"]
+- !private ["PSo13CAMediaTiming", "kCAMediaTimingFunctionLinear"]
+- !private ["PSo13CAMediaTiming", "removeAllAnimations"]
+- !private ["PSo13CAMediaTiming", "removeAnimationForKey"]
+- !private ["CSo21CAMediaTimingFunction", "init"]
+- !private ["PSs11CVarArgType", "CAMediaTimingFunction"]
+- ["PSs11CVarArgType", "after"]
+- ["PSs11CVarArgType", "and"]
+- ["PSs11CVarArgType", "barrier"]
+- !private ["PSs11CVarArgType", "bs_animCount"]
+- !private ["PSs11CVarArgType", "bs_barrier"]
+- !private ["PSs11CVarArgType", "bs_completion"]
+- !private ["PSs11CVarArgType", "bs_delay"]
+- !private ["PSs11CVarArgType", "bs_lastDelay"]
+- ["PSs11CVarArgType", "bs_remoevAnim"]
+- ["PSs11CVarArgType", "bs_removeAll"]
+- !private ["PSs11CVarArgType", "bs_removeOnCompletion"]
+- !private ["PSs11CVarArgType", "bs_timingCurve"]
+- !private ["PSs11CVarArgType", "bs_uncompletedTime"]
+- ["PSs11CVarArgType", "commitAnimation"]
+- ["PSs11CVarArgType", "completion"]
+- ["PSs11CVarArgType", "delay"]
+- ["PSs11CVarArgType", "easeIn"]
+- ["PSs11CVarArgType", "easeInOut"]
+- ["PSs11CVarArgType", "easeOut"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "kCAMediaTimingFunctionEaseIn"]
+- !private ["PSs11CVarArgType", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSs11CVarArgType", "kCAMediaTimingFunctionEaseOut"]
+- !private ["PSs11CVarArgType", "kCAMediaTimingFunctionLinear"]
+- ["PSs11CVarArgType", "linear"]
+- !private ["PSs11CVarArgType", "removeAllAnimations"]
+- !private ["PSs11CVarArgType", "removeAnimationForKey"]
+- ["PSs11CVarArgType", "removeOnCompletion"]
+- ["PSs11CVarArgType", "then"]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "CAMediaTimingFunction"]
+- ["PSs23CustomStringConvertible", "after"]
+- ["PSs23CustomStringConvertible", "and"]
+- ["PSs23CustomStringConvertible", "barrier"]
+- !private ["PSs23CustomStringConvertible", "bs_animCount"]
+- !private ["PSs23CustomStringConvertible", "bs_barrier"]
+- !private ["PSs23CustomStringConvertible", "bs_completion"]
+- !private ["PSs23CustomStringConvertible", "bs_delay"]
+- !private ["PSs23CustomStringConvertible", "bs_lastDelay"]
+- ["PSs23CustomStringConvertible", "bs_remoevAnim"]
+- ["PSs23CustomStringConvertible", "bs_removeAll"]
+- !private ["PSs23CustomStringConvertible", "bs_removeOnCompletion"]
+- !private ["PSs23CustomStringConvertible", "bs_timingCurve"]
+- !private ["PSs23CustomStringConvertible", "bs_uncompletedTime"]
+- ["PSs23CustomStringConvertible", "commitAnimation"]
+- ["PSs23CustomStringConvertible", "completion"]
+- ["PSs23CustomStringConvertible", "delay"]
+- ["PSs23CustomStringConvertible", "easeIn"]
+- ["PSs23CustomStringConvertible", "easeInOut"]
+- ["PSs23CustomStringConvertible", "easeOut"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "kCAMediaTimingFunctionEaseIn"]
+- !private ["PSs23CustomStringConvertible", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSs23CustomStringConvertible", "kCAMediaTimingFunctionEaseOut"]
+- !private ["PSs23CustomStringConvertible", "kCAMediaTimingFunctionLinear"]
+- ["PSs23CustomStringConvertible", "linear"]
+- !private ["PSs23CustomStringConvertible", "removeAllAnimations"]
+- !private ["PSs23CustomStringConvertible", "removeAnimationForKey"]
+- ["PSs23CustomStringConvertible", "removeOnCompletion"]
+- ["PSs23CustomStringConvertible", "then"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "CAMediaTimingFunction"]
+- ["PSs9Equatable", "after"]
+- ["PSs9Equatable", "and"]
+- ["PSs9Equatable", "barrier"]
+- !private ["PSs9Equatable", "bs_animCount"]
+- !private ["PSs9Equatable", "bs_barrier"]
+- !private ["PSs9Equatable", "bs_completion"]
+- !private ["PSs9Equatable", "bs_delay"]
+- !private ["PSs9Equatable", "bs_lastDelay"]
+- ["PSs9Equatable", "bs_remoevAnim"]
+- ["PSs9Equatable", "bs_removeAll"]
+- !private ["PSs9Equatable", "bs_removeOnCompletion"]
+- !private ["PSs9Equatable", "bs_timingCurve"]
+- !private ["PSs9Equatable", "bs_uncompletedTime"]
+- ["PSs9Equatable", "commitAnimation"]
+- ["PSs9Equatable", "completion"]
+- ["PSs9Equatable", "delay"]
+- ["PSs9Equatable", "easeIn"]
+- ["PSs9Equatable", "easeInOut"]
+- ["PSs9Equatable", "easeOut"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "kCAMediaTimingFunctionEaseIn"]
+- !private ["PSs9Equatable", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSs9Equatable", "kCAMediaTimingFunctionEaseOut"]
+- !private ["PSs9Equatable", "kCAMediaTimingFunctionLinear"]
+- ["PSs9Equatable", "linear"]
+- !private ["PSs9Equatable", "removeAllAnimations"]
+- !private ["PSs9Equatable", "removeAnimationForKey"]
+- ["PSs9Equatable", "removeOnCompletion"]
+- ["PSs9Equatable", "then"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs8Hashable", "CAMediaTimingFunction"]
+- ["PSs8Hashable", "after"]
+- ["PSs8Hashable", "and"]
+- ["PSs8Hashable", "barrier"]
+- !private ["PSs8Hashable", "bs_animCount"]
+- !private ["PSs8Hashable", "bs_barrier"]
+- !private ["PSs8Hashable", "bs_completion"]
+- !private ["PSs8Hashable", "bs_delay"]
+- !private ["PSs8Hashable", "bs_lastDelay"]
+- ["PSs8Hashable", "bs_remoevAnim"]
+- ["PSs8Hashable", "bs_removeAll"]
+- !private ["PSs8Hashable", "bs_removeOnCompletion"]
+- !private ["PSs8Hashable", "bs_timingCurve"]
+- !private ["PSs8Hashable", "bs_uncompletedTime"]
+- ["PSs8Hashable", "commitAnimation"]
+- ["PSs8Hashable", "completion"]
+- ["PSs8Hashable", "delay"]
+- ["PSs8Hashable", "easeIn"]
+- ["PSs8Hashable", "easeInOut"]
+- ["PSs8Hashable", "easeOut"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "kCAMediaTimingFunctionEaseIn"]
+- !private ["PSs8Hashable", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSs8Hashable", "kCAMediaTimingFunctionEaseOut"]
+- !private ["PSs8Hashable", "kCAMediaTimingFunctionLinear"]
+- ["PSs8Hashable", "linear"]
+- !private ["PSs8Hashable", "removeAllAnimations"]
+- !private ["PSs8Hashable", "removeAnimationForKey"]
+- ["PSs8Hashable", "removeOnCompletion"]
+- ["PSs8Hashable", "then"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "CAMediaTimingFunction"]
+- !private ["PSo8NSCoding", "after"]
+- !private ["PSo8NSCoding", "bs_animCount"]
+- !private ["PSo8NSCoding", "bs_barrier"]
+- !private ["PSo8NSCoding", "bs_completion"]
+- !private ["PSo8NSCoding", "bs_delay"]
+- !private ["PSo8NSCoding", "bs_lastDelay"]
+- !private ["PSo8NSCoding", "bs_removeOnCompletion"]
+- !private ["PSo8NSCoding", "bs_timingCurve"]
+- !private ["PSo8NSCoding", "bs_uncompletedTime"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kCAMediaTimingFunctionEaseIn"]
+- !private ["PSo8NSCoding", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSo8NSCoding", "kCAMediaTimingFunctionEaseOut"]
+- !private ["PSo8NSCoding", "kCAMediaTimingFunctionLinear"]
+- !private ["PSo8NSCoding", "removeAllAnimations"]
+- !private ["PSo8NSCoding", "removeAnimationForKey"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CALayer"]
+- !private ["CSo8NSObject", "CAMediaTimingFunction"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSTimeInterval"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "after"]
+- ["CSo8NSObject", "and"]
+- ["CSo8NSObject", "barrier"]
+- !private ["CSo8NSObject", "bs_animCount"]
+- !private ["CSo8NSObject", "bs_barrier"]
+- !private ["CSo8NSObject", "bs_completion"]
+- !private ["CSo8NSObject", "bs_delay"]
+- !private ["CSo8NSObject", "bs_lastDelay"]
+- ["CSo8NSObject", "bs_remoevAnim"]
+- ["CSo8NSObject", "bs_removeAll"]
+- !private ["CSo8NSObject", "bs_removeOnCompletion"]
+- !private ["CSo8NSObject", "bs_timingCurve"]
+- !private ["CSo8NSObject", "bs_uncompletedTime"]
+- ["CSo8NSObject", "commitAnimation"]
+- ["CSo8NSObject", "completion"]
+- ["CSo8NSObject", "delay"]
+- ["CSo8NSObject", "easeIn"]
+- ["CSo8NSObject", "easeInOut"]
+- ["CSo8NSObject", "easeOut"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kCAMediaTimingFunctionEaseIn"]
+- !private ["CSo8NSObject", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["CSo8NSObject", "kCAMediaTimingFunctionEaseOut"]
+- !private ["CSo8NSObject", "kCAMediaTimingFunctionLinear"]
+- ["CSo8NSObject", "linear"]
+- !private ["CSo8NSObject", "removeAllAnimations"]
+- !private ["CSo8NSObject", "removeAnimationForKey"]
+- ["CSo8NSObject", "removeOnCompletion"]
+- ["CSo8NSObject", "then"]
+- !private ["PSo16NSObjectProtocol", "CAMediaTimingFunction"]
+- ["PSo16NSObjectProtocol", "after"]
+- ["PSo16NSObjectProtocol", "and"]
+- ["PSo16NSObjectProtocol", "barrier"]
+- !private ["PSo16NSObjectProtocol", "bs_animCount"]
+- !private ["PSo16NSObjectProtocol", "bs_barrier"]
+- !private ["PSo16NSObjectProtocol", "bs_completion"]
+- !private ["PSo16NSObjectProtocol", "bs_delay"]
+- !private ["PSo16NSObjectProtocol", "bs_lastDelay"]
+- ["PSo16NSObjectProtocol", "bs_remoevAnim"]
+- ["PSo16NSObjectProtocol", "bs_removeAll"]
+- !private ["PSo16NSObjectProtocol", "bs_removeOnCompletion"]
+- !private ["PSo16NSObjectProtocol", "bs_timingCurve"]
+- !private ["PSo16NSObjectProtocol", "bs_uncompletedTime"]
+- ["PSo16NSObjectProtocol", "commitAnimation"]
+- ["PSo16NSObjectProtocol", "completion"]
+- ["PSo16NSObjectProtocol", "delay"]
+- ["PSo16NSObjectProtocol", "easeIn"]
+- ["PSo16NSObjectProtocol", "easeInOut"]
+- ["PSo16NSObjectProtocol", "easeOut"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kCAMediaTimingFunctionEaseIn"]
+- !private ["PSo16NSObjectProtocol", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSo16NSObjectProtocol", "kCAMediaTimingFunctionEaseOut"]
+- !private ["PSo16NSObjectProtocol", "kCAMediaTimingFunctionLinear"]
+- ["PSo16NSObjectProtocol", "linear"]
+- !private ["PSo16NSObjectProtocol", "removeAllAnimations"]
+- !private ["PSo16NSObjectProtocol", "removeAnimationForKey"]
+- ["PSo16NSObjectProtocol", "removeOnCompletion"]
+- ["PSo16NSObjectProtocol", "then"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs12_Reflectable", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "CSo21CAMediaTimingFunction"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- "PSs8Hashable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "PSs16OutputStreamType"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/Bers/Desktop/\u539F\u59CB/Developing/BSQuickAnimation/BSQuickAnimation/BSQuickAnimation.h"
+- "/Users/Bers/Desktop/\u539F\u59CB/Developing/BSQuickAnimation/build/BSQuickAnimation.build/Debug-iphoneos/BSQuickAnimation.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+interface-hash: "9e3f2c921387d999d87ea91b88df60f9"

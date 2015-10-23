@@ -1,0 +1,1 @@
+ const unsigned char BSQuickAnimationVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:BSQuickAnimation  PROJECT:BSQuickAnimation-1" "\n"; const double BSQuickAnimationVersionNumber __attribute__ ((used)) = (double)1.;
